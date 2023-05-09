@@ -1,0 +1,288 @@
+.img-rotate {
+  transition: transform 1s ease-in-out;
+}
+.img-rotate:hover {
+  transform: rotate(180deg);
+}
+
+.my-name {
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 0.8rem;
+}
+
+.container-links-navbar {
+  margin: 0 0.5rem;
+  padding: 0 0.5rem;
+  border-radius: 50px;
+}
+.container-links-navbar:hover {
+  color: #121212;
+  background-color: #faf9f6;
+  transition-duration: 1s;
+}
+
+.links-navbar {
+  color: #faf9f6;
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.active-page {
+  font-weight: 600;
+}
+
+footer {
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.footer-container {
+  margin-top: 5rem;
+}
+
+.links {
+  text-decoration: none;
+  color: #faf9f6;
+}
+.links:hover {
+  font-weight: bolder;
+}
+
+.main-title {
+  display: flex;
+  height: 60vh;
+}
+
+.main-title p:first-child {
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 10rem;
+  margin-right: 2rem;
+  margin-top: 0.7rem;
+}
+
+.main-title p:last-child {
+  font-family: "freight-big-pro", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 10rem;
+  margin-left: 2rem;
+}
+
+.page-title {
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 4rem;
+}
+
+.about-text {
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.4rem;
+}
+
+.about-img {
+  width: 100%;
+}
+
+.project-cat ul {
+  list-style: none;
+}
+.project-cat ul a {
+  text-decoration: none;
+}
+
+.project-container img {
+  border-radius: 0.7rem;
+}
+
+.project-name {
+  color: #faf9f6;
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1rem;
+}
+.project-name :first-child {
+  margin-bottom: 0;
+}
+.project-name :nth-child(2) {
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+.project-name :nth-child(3) a {
+  font-weight: 300;
+  text-decoration: none;
+  color: #faf9f6;
+}
+.project-name :nth-child(3) a:hover {
+  text-decoration: underline;
+}
+.project-name :nth-child(3) img {
+  padding-right: 0.5rem;
+}
+
+.resume-subtitle {
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1rem;
+  margin: 0;
+}
+.resume-subtitle p {
+  border-bottom: 1px solid #faf9f6;
+  padding: 0;
+}
+
+.bold-text {
+  font-weight: 400;
+}
+
+.resume-text {
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.form-container {
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.form-box {
+  border-radius: 0;
+  border: 1px solid #121212;
+  border-bottom: 1px solid #faf9f6;
+  background-color: #121212;
+}
+.form-box :focus {
+  color: #121212;
+  background-color: #121212;
+}
+
+.form-input:focus {
+  border: 0;
+}
+
+.form-button {
+  border-radius: 25px;
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .icons-sm {
+    width: 15px;
+    height: 15px;
+  }
+  .footer-text {
+    font-size: 0.7rem;
+  }
+  .main-title {
+    flex-direction: column;
+  }
+  .main-title p:first-child {
+    font-size: 5rem;
+    margin: 0;
+  }
+  .main-title p:last-child {
+    font-size: 20vh;
+    line-height: 0.9;
+    margin: 0;
+  }
+  .page-title {
+    font-size: 3rem;
+  }
+  .about-text {
+    font-size: 1rem;
+  }
+  .project-cat {
+    text-align: left;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+  .project-cat ul {
+    padding: 0;
+  }
+  .project-container {
+    align-items: end;
+  }
+  .project-name {
+    background: linear-gradient(0deg, #121212, rgba(18, 18, 18, 0));
+    position: absolute;
+    padding: 8rem 1.5rem 1rem 1.5rem;
+  }
+  .project-name :first-child {
+    font-size: 0.75rem;
+  }
+  .project-name :nth-child(2) {
+    font-size: 1.5rem;
+  }
+  .name-right {
+    text-align: left;
+  }
+  .resume-subtitle {
+    font-size: 1rem;
+    margin: 0 0.5rem;
+  }
+  .resume-text {
+    padding: 0 0.5rem;
+  }
+  .form-container {
+    width: 100%;
+  }
+  .form-button {
+    width: 25%;
+  }
+}
+@media only screen and (min-width: 577px) {
+  .icons-sm {
+    width: 20px;
+    height: 20px;
+  }
+  .main-title p {
+    align-self: center;
+  }
+  .project-cat {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .project-cat li:nth-child(2) {
+    border-left: 1px solid #faf9f6;
+    border-right: 1px solid #faf9f6;
+  }
+  .project-container {
+    align-items: center;
+  }
+  .name-right {
+    text-align: right;
+  }
+  .resume-container {
+    width: 60%;
+    margin-left: 20%;
+  }
+  .resume-subtitle {
+    font-size: 1.2rem;
+  }
+}
+body, header {
+  background-color: #121212;
+  color: #faf9f6;
+}
+
+/*# sourceMappingURL=style.css.map */

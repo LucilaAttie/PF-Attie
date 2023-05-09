@@ -1,0 +1,33 @@
+@import "../base/mixins";
+@import "../base/variables";
+
+.form-container {
+    @include text ($sans-serif, 100, normal, 1rem)
+    
+}
+
+.form-box {
+    border-radius: 0;
+    border: 1px solid $color-dark;
+    border-bottom: 1px solid $color-light;
+    background-color: $color-dark;
+    
+    :focus {
+        color: $color-dark;
+        background-color: $color-dark;
+    }
+}
+
+
+.form-input:focus {
+    border: 0;
+}
+
+.form-button {
+    border-radius: 25px;
+    @include text ($sans-serif, 100, normal, 1rem)
+}
+
+
+
+

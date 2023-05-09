@@ -1,0 +1,46 @@
+@import "../base/mixins";
+@import "../base/variables";
+
+@media only screen and (min-width:577px) {
+
+    // Footer
+    .icons-sm {
+        width: 20px;
+        height: 20px;
+    }
+
+    // Home
+    .main-title p {
+        align-self: center;
+    }
+
+    // Projects
+    .project-cat {
+        text-align: center;
+        margin-bottom: 4rem;
+
+        li:nth-child(2) {
+            border-left: 1px solid $color-light;
+            border-right: 1px solid $color-light;
+        }
+    }
+    
+    .project-container {
+        align-items: center;
+    }
+
+    .name-right {
+        text-align: right;
+    }
+
+    // Resume
+    .resume-container {
+        width: 60%;
+        margin-left: 20%;
+        
+    }
+
+    .resume-subtitle {
+        font-size: 1.2rem;
+    }
+}

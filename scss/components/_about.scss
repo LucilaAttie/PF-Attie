@@ -1,0 +1,15 @@
+@import "../base/mixins";
+@import "../base/variables";
+
+.page-title {
+    @include text ($sans-serif, 300, italic, 4rem)
+}
+
+.about-text {
+    @include text ($sans-serif, 100, normal, 1.4rem)
+}
+
+.about-img {
+    width: 100%;
+}
+

@@ -1,0 +1,22 @@
+@import "../base/mixins";
+@import "../base/variables";
+
+.resume-subtitle {
+    @include text ($sans-serif, 100, normal, 1rem);
+    margin: 0;
+
+    p {
+        border-bottom:1px solid $color-light;
+        padding: 0;
+    }
+}
+
+.bold-text {
+    font-weight: 400;
+}
+
+.resume-text {
+    @include text ($sans-serif, 100, normal, 1rem);
+}
+
+

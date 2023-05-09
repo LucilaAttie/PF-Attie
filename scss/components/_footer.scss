@@ -1,0 +1,23 @@
+@import "../base/mixins";
+@import "../base/variables";
+
+footer {
+    @include text ($sans-serif, 400, normal, 1rem)
+}
+
+.footer-container {
+    margin-top: 5rem;
+}
+
+.links {
+    text-decoration: none;
+    color: $color-light;
+
+    &:hover {
+        font-weight: bolder;
+    }
+}
+
+
+
+

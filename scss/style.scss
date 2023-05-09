@@ -1,0 +1,16 @@
+@import "base/variables";
+@import "components/header";
+@import "components/footer";
+@import "components/home";
+@import "components/about";
+@import "components/projects";
+@import "components/resume";
+@import "components/contact";
+@import "components/max-width-576px.scss";
+@import "components/min-width-577px.scss";
+
+
+body, header {
+    background-color: $color-dark;
+    color: $color-light;
+}
