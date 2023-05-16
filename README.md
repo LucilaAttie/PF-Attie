@@ -1,4 +1,3 @@
-# PF-Attie
 <h1 align="center">Hi 👋, I'm Lucila Attie</h1>
 <h3 align="center">A passionate designer and developer from Argentina :)</h3>
 
